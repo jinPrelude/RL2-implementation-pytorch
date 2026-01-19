@@ -1,7 +1,6 @@
 notebook
-git+https://github.com/Farama-Foundation/Metaworld.git@master#egg=metaworld
+metaworld==2.0.0
 wandb
 ray
 torchopt
-torch>=2.0.1+cu118
---find-links https://download.pytorch.org/whl/torch_stable.html
+torch
